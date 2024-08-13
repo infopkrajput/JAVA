@@ -1,7 +1,4 @@
 package ALPHA.Chapter_13;
-
-import java.util.*;
-
 public class ex1 {
     public static int arrayCheck(int num[]) {
         int n = num.length;
