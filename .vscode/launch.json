@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "pr1",
+      "request": "launch",
+      "mainClass": "pr1",
+      "projectName": "JAVA_3088e3ee"
+    },
+    {
+      "type": "java",
       "name": "ex1",
       "request": "launch",
       "mainClass": "ALPHA.Chapter_13.ex1",
