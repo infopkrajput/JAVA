@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "JAVA_3088e3ee"
+    },
+    {
+      "type": "java",
+      "name": "SoluSmallest_number_repeating_K_timestion",
+      "request": "launch",
+      "mainClass": "SoluSmallest_number_repeating_K_timestion",
+      "projectName": "JAVA_3088e3ee"
+    },
+    {
+      "type": "java",
       "name": "pr1",
       "request": "launch",
       "mainClass": "pr1",
