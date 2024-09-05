@@ -1,4 +1,4 @@
-class Set_Matrix_Zeroes {
+class Set_Matrix_Zeroes73 {
     public static void setZeroes(int[][] matrix) {
         int n = matrix.length;
         int m = matrix[0].length;
