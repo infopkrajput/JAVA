@@ -1,3 +1,4 @@
+package leetCode;
 public class Cells_with_Odd_Values_in_a_Matrix_1252 {
     public static int oddCells(int m, int n, int[][] indices) {
         int[][] matrix = new int[m][n];
