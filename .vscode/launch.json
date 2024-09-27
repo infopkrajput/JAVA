@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Access",
+      "request": "launch",
+      "mainClass": "Access",
+      "projectName": "JAVA_bb8053f"
+    },
+    {
+      "type": "java",
+      "name": "SimpleInheritance",
+      "request": "launch",
+      "mainClass": "SimpleInheritance",
+      "projectName": "JAVA_bb8053f"
+    },
+    {
+      "type": "java",
+      "name": "ch4Ca",
+      "request": "launch",
+      "mainClass": "LetUsJAVA.chapter4.ch4Ca",
+      "projectName": "JAVA_3bb1e19f"
+    },
+    {
+      "type": "java",
       "name": "ch3Ge",
       "request": "launch",
       "mainClass": "LetUsJAVA.chapter3.ch3Ge",
