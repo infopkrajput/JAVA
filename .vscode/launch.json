@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MethodOverloading",
+      "request": "launch",
+      "mainClass": "MethodOverloading",
+      "projectName": "JAVA_bb8053f"
+    },
+    {
+      "type": "java",
       "name": "Access",
       "request": "launch",
       "mainClass": "Access",
