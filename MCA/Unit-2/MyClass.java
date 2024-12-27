@@ -1,9 +1,5 @@
 public class MyClass {
   public static void main(String[] args) {
-    // calculateScore("mike", 500);
-    // calculateScore(500);
-    // calculateScore();
-    int c[][] = new int[2][2];
     System.out.println(calculateScore(500));
   }
 
@@ -25,11 +21,6 @@ public class MyClass {
     System.out.println("No player and no score");
     return 0;
   }
-
-  // only changing from int to void is invalid Method Overloading
-  // public static void calculateScore() {
-  // System.out.println("No player and no score");
-  // }
 
 }
 
