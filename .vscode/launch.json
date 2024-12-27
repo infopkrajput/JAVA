@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main2",
+      "request": "launch",
+      "mainClass": "Main2",
+      "projectName": "JAVA_bb8053f"
+    },
+    {
+      "type": "java",
+      "name": "Main1",
+      "request": "launch",
+      "mainClass": "Main1",
+      "projectName": "JAVA_bb8053f"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Main",
