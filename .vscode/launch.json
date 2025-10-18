@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "arraylist",
+      "request": "launch",
+      "mainClass": "arraylist",
+      "projectName": "JAVA_4773b765"
+    },
+    {
+      "type": "java",
       "name": "Main3",
       "request": "launch",
       "mainClass": "Main3",
