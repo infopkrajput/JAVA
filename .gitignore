@@ -1,2 +1,9 @@
 *.class
 keys.java
+.vscode/
+.idea/
+target/
+.DS_Store
+logs/
+*.log
+.env

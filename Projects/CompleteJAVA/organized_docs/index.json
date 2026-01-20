@@ -1,0 +1,191 @@
+﻿{
+  "generatedOn": "2026-01-17",
+  "source": "CompleteJAVA repository",
+  "orderedTopics": [
+    {
+      "name": "Primitive & Reference Data Types",
+      "level": "Basic",
+      "description": "Overview of Java primitive types, wrappers, and basic string usage.",
+      "examplePaths": [
+        "src/com/pk/completejava/_01_Data_Types/DataTypes.java",
+        "src/com/pk/completejava/_01_Data_Types/Arithmetic.java",
+        "src/com/pk/completejava/_01_Data_Types/string.java"
+      ]
+    },
+    {
+      "name": "Control Flow (loops, conditionals)",
+      "level": "Basic",
+      "description": "If/else, switch, for/while loops and foreach constructs.",
+      "examplePaths": [
+        "src/com/pk/completejava/_02_Control_Flow/IfElse.java",
+        "src/com/pk/completejava/_02_Control_Flow/forloop.java",
+        "src/com/pk/completejava/_02_Control_Flow/forEachloop.java",
+        "src/com/pk/completejava/_02_Control_Flow/Switch.java"
+      ]
+    },
+    {
+      "name": "Arrays & Array utilities",
+      "level": "Basic",
+      "description": "Working with Java arrays and related iteration patterns.",
+      "examplePaths": [
+        "src/com/pk/completejava/_02_Control_Flow/Array.java",
+        "src/com/pk/completejava/_03_Collections/List/Learnarr.java"
+      ]
+    },
+    {
+      "name": "Collections (Lists, Maps, Sets)",
+      "level": "Intermediate",
+      "description": "Java Collections Framework: ArrayList/LinkedList/Vector/Stack, HashMap, HashSet and concurrent variants.",
+      "examplePaths": [
+        "src/com/pk/completejava/_03_Collections/List/LearnArrayList.java",
+        "src/com/pk/completejava/_03_Collections/List/LinkedList.java",
+        "src/com/pk/completejava/_03_Collections/List/Vector.java",
+        "src/com/pk/completejava/_03_Collections/Map/HashMapExample.java",
+        "src/com/pk/completejava/_03_Collections/Set/HashSetExample.java",
+        "src/com/pk/completejava/_03_Collections/List/CopyOnWriteArrayList.java"
+      ]
+    },
+    {
+      "name": "Object-Oriented Programming (Classes & Inheritance)",
+      "level": "Basic",
+      "description": "Core OOP concepts: classes, inheritance, polymorphism and encapsulation.",
+      "examplePaths": [
+        "src/com/pk/completejava/_05_OOPs/abstraction/Animal.java",
+        "src/com/pk/completejava/_05_OOPs/abstraction/Dog.java",
+        "src/com/pk/completejava/_05_OOPs/abstraction/Cat.java",
+        "src/com/pk/completejava/_05_OOPs/practice/SampleProject.java"
+      ]
+    },
+    {
+      "name": "Interfaces & Multiple Inheritance via Interfaces",
+      "level": "Basic",
+      "description": "Use of Java interfaces, default/static methods, and combining interfaces for multiple inheritance-like behavior.",
+      "examplePaths": [
+        "src/com/pk/completejava/_06_Interfaces/MyInterface.java",
+        "src/com/pk/completejava/_06_Interfaces/MyClassWithInterface.java",
+        "src/com/pk/completejava/_05_OOPs/interfaces/formultipleinheritance/Smartphone.java"
+      ]
+    },
+    {
+      "name": "Enums",
+      "level": "Basic",
+      "description": "Java enum types and simple use-cases.",
+      "examplePaths": [
+        "src/com/pk/completejava/_08_Enums/EnumExample.java"
+      ]
+    },
+    {
+      "name": "Exceptions & Error Handling",
+      "level": "Intermediate",
+      "description": "Checked vs unchecked exceptions, try/catch/finally, and custom exception patterns.",
+      "examplePaths": [
+        "src/com/pk/completejava/_09_Exceptions/ExceptionDemo.java"
+      ]
+    },
+    {
+      "name": "I/O (File IO)",
+      "level": "Intermediate",
+      "description": "Reading/writing files using Java IO APIs (streams, readers/writers).",
+      "examplePaths": [
+        "src/com/pk/completejava/_12_IO/FileIODemo.java"
+      ]
+    },
+    {
+      "name": "Generics",
+      "level": "Intermediate",
+      "description": "Generic classes, methods, bounded type parameters and wildcards.",
+      "examplePaths": [
+        "src/com/pk/completejava/_04_Generics/MyGenericsClass.java",
+        "src/com/pk/completejava/_04_Generics/MyGenericsWithWildcard.java",
+        "src/com/pk/completejava/_04_Generics/MyGenericsWithBoundedType.java"
+      ]
+    },
+    {
+      "name": "Functional Programming & Lambdas",
+      "level": "Intermediate",
+      "description": "Lambda expressions, functional interfaces and simple stream-like operations.",
+      "examplePaths": [
+        "src/com/pk/completejava/_10_Functional/LambdaExample.java"
+      ]
+    },
+    {
+      "name": "Streams (java.util.stream)",
+      "level": "Intermediate",
+      "description": "Stream pipeline operations: map/filter/reduce, and basic stream processing patterns.",
+      "examplePaths": [
+        "src/com/pk/completejava/_11_Streams/StreamDemo.java",
+        "src/com/pk/completejava/_11_Streams/learnBasics.java"
+      ]
+    },
+    {
+      "name": "Inner & Nested Classes",
+      "level": "Intermediate",
+      "description": "Member inner classes, local classes, anonymous classes and static nested classes.",
+      "examplePaths": [
+        "src/com/pk/completejava/_07_Inner_Classes/InnerClassDemo.java"
+      ]
+    },
+    {
+      "name": "Annotations & Reflection (metadata)",
+      "level": "Advanced",
+      "description": "Custom annotations and runtime reflection to inspect classes/methods/fields.",
+      "examplePaths": [
+        "src/com/pk/completejava/_17_Annotations/CustomAnnotationDemo.java",
+        "src/com/pk/completejava/_16_Reflection/ReflectionDemo.java"
+      ]
+    },
+    {
+      "name": "Serialization",
+      "level": "Advanced",
+      "description": "Java serialization/deserialization using java.io.Serializable and related patterns.",
+      "examplePaths": [
+        "src/com/pk/completejava/_15_Serialization/SerializationDemo.java"
+      ]
+    },
+    {
+      "name": "Multithreading & Concurrency",
+      "level": "Advanced",
+      "description": "Thread lifecycle, Runnable/Thread, executors and concurrent patterns.",
+      "examplePaths": [
+        "src/com/pk/completejava/_14_Multithreading/Main.java",
+        "src/com/pk/completejava/_14_Multithreading/th1.java",
+        "src/com/pk/completejava/_14_Multithreading/th2.java",
+        "src/com/pk/completejava/_14_Multithreading/ExecutorsDemo.java"
+      ]
+    },
+    {
+      "name": "Networking (Sockets)",
+      "level": "Advanced",
+      "description": "Basic socket programming for TCP client/server interactions.",
+      "examplePaths": [
+        "src/com/pk/completejava/_13_Networking/SocketEchoDemo.java"
+      ]
+    },
+    {
+      "name": "GUI (Swing)",
+      "level": "Intermediate",
+      "description": "Simple Swing GUI patterns: frames, panels and event handling.",
+      "examplePaths": [
+        "src/com/pk/completejava/_18_Swing/MyFrame.java",
+        "src/com/pk/completejava/_18_Swing/Main.java"
+      ]
+    },
+    {
+      "name": "Date & Time (java.time)",
+      "level": "Intermediate",
+      "description": "Working with modern Java date/time APIs (java.time).",
+      "examplePaths": [
+        "src/com/pk/completejava/_19_Time/DateTimeExample.java"
+      ]
+    },
+    {
+      "name": "Testing (JUnit example)",
+      "level": "Intermediate",
+      "description": "Unit testing basics using JUnit examples under test/ folder.",
+      "examplePaths": [
+        "backup_maven_*/test/java/com/pk/completejava/testing/JUnitExampleTest.java"
+      ]
+    }
+  ]
+}
+

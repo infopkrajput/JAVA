@@ -1,3 +1,0 @@
-# LetUsJAVA
-
-## By Yashavant Kanetkar
