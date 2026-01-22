@@ -1,5 +1,8 @@
+// Write a program to print the multiplication table of the number entered by the user.
+package chapter5;
+
 import java.util.*;
-@SuppressWarnings({ "resource", "unused" })
+
 public class ch5Cg {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

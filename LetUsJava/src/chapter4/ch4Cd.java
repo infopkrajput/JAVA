@@ -1,8 +1,10 @@
+// If the ages of Ram, Shyam and Ajay are input through the keyboard, write a program to determine the youngest of the three.
+package chapter4;
+
 import java.util.*;
 
 public class ch4Cd {
     public static void main(String[] args) {
-        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Age of Ram : ");
         int ram = sc.nextInt();

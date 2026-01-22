@@ -1,5 +1,8 @@
+// Read 10 sets of p, r, n & q and calculate compound amount a = p (1 + r / q)^(nq)
+package chapter5;
+
 import java.util.*;
-@SuppressWarnings({ "resource", "unused" })
+
 public class ch5Ch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -20,5 +23,5 @@ public class ch5Ch {
         }
 
     }
-    
+
 }

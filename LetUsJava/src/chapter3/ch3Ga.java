@@ -1,11 +1,11 @@
+// Two Numbers are input through the keyboard into two local variables C and D. Write a java program to interchange the contents of C and D.
+package chapter3;
+
 import java.util.Scanner;
 
-/**
- * ch3Ga
- */
 public class ch3Ga {
     public static void main(String[] args) {
-        int C,D;
+        int C, D;
         Scanner sc = new Scanner(System.in);
         C = sc.nextInt();
         D = sc.nextInt();

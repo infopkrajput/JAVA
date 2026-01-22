@@ -1,6 +1,6 @@
-import java.util.*;
+// Produce a table of values of i, y and x using i = 2 + (y + 0.5 x), where y varies 1 to 6 and for each y, x varies 5.5 to 12.5 in steps of 0.5.
+package chapter5;
 
-@SuppressWarnings({ "resource", "unused" })
 public class ch5Cf {
     public static void main(String[] args) {
         float i, y, x;

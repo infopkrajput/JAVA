@@ -1,6 +1,15 @@
+// Write a menu-driven program which has the following options:
+// 1. Factorial of a number
+// 2. Prime or not
+// 3. Odd or even
+// 4. Exit
+// Once a menu item is selected the appropriate action should be taken and once this action is finished, the menu should reappear. Unless the user selects the ‘Exit’ option the program should continue to work.
+//(Hint: Make use of an infinite while and a switch statement).
+
+package chapter6;
+
 import java.util.*;
 
-@SuppressWarnings({ "resource", "unused" })
 public class ch6Ca {
     public static void main(String[] args) {
         boolean exit = true;
@@ -57,5 +66,4 @@ public class ch6Ca {
             }
         }
     }
-
 }

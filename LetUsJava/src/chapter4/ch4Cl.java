@@ -1,7 +1,17 @@
+// What will be the result of the following expressions:
+// int a = 10 ;
+// int b = 20 ;
+// a > 5 && b != 5
+// a != 0 & b < 34
+// a > 45 || b > 45
+// a == 10 | b == 20
+// a > 5 && b != 3 || a + b >= 10
+// a > 5 || b != 3 && a + b >= 10
+package chapter4;
+
 import java.util.*;
 
 public class ch4Cl {
-    @SuppressWarnings({ "resource", "unused" })
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = 10;

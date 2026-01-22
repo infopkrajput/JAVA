@@ -1,8 +1,10 @@
+// If the three sides of a triangle are entered through the keyboard, write a program to check whether the triangle is valid or not. The triangle is valid if the sum of two sides is greater than the largest of the three sides.
+package chapter4;
+
 import java.util.*;;
 
 public class ch4Cf {
     public static void main(String[] args) {
-        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the first side of the triangle : ");
         int a = sc.nextInt();

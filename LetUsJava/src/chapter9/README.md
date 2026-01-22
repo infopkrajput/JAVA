@@ -1,126 +1,107 @@
-# Chapter 9
+# Chapter 9 
 
-## [A] State whether the following statements are True or False
+## Introduction to OOP
 
-```md
-(a) Object-oriented programming permits reusability of the existing code.
+Contents:
 
-(b) Languages earlier than procedural programming languages made use of only global variables.
+- [The Beginning...](#the-beginning)
+- [Structured Programming](#structured-programming)
+- [Object-Oriented Programming](#object-oriented-programming)
+- [Characteristics of OOP](#characteristics-of-oop)
+  - [Objects](#objects)
+  - [Classes](#classes)
+  - [Inheritance](#inheritance)
+  - [Polymorphism](#polymorphism)
+  - [Containership](#containership)
+  - [Reusability](#reusability)
+- [Summary](#summary)
 
-(c) It is easier to write, understand and maintain programs if they use Object-Oriented programming model as compared to Structured programming model.
 
-(d) As compared to procedures, data is not given enough importance in Procedural programming.
+## The Beginning
 
-(e) Structured programming model does not represent the real world problem as well as the Object-oriented programming model.
+Computer programs were first written as long lists of instructions executed one by one. As programs grew bigger, people found it hard to manage and change them. This led to better ways of organizing code, such as structured programming and later object-oriented programming (OOP).
 
-(f) A class permits us to build user-defined data types.
 
-(g) Objects are to classes as variables are to built in data types.
+## Structured Programming
 
-(i) Encapsulation facilitates a single function name to be used for the same operation performed on related derived classes.
+Structured programming splits a program into small blocks: functions, procedures, and modules. Each block does one task. This made code easier to read and test, but for very large systems it can still be hard to model real-world objects and their relationships.
 
-(j) In polymorphism even though the function names are same, their implementation may vary from class to class.
 
-(k) Multiple objects can be created from the same class.
+## Object-Oriented Programming
 
-(l) Object-oriented Programming paradigm stresses on dividing the logic into smaller parts and writing procedures for each part.
+Object-oriented programming (OOP) models a program as a collection of objects. Each object represents some real-world thing (for example, a Student, a Book, or a BankAccount) and has data (fields) and behavior (methods).
 
-(m) Classes and objects are cornerstones of structured programming paradigm.
+Simple idea in plain English:
+- Think in terms of objects instead of only functions.
+- Group data and the code that works on that data together in a class.
+- Create many objects (instances) from the same class.
 
-(n) Object-oriented programming paradigm gives equal importance to data and the procedures that work on the data.
+Example (plain text):
+```java
+// A simple idea (not runnable):
+class Book {
+  String title;
+  String author;
+  void open() { ... }
+}
 
-(o) Java is a structured programming language.
+// Now you can create objects:
+Book b = new Book();
 ```
 
-## [B] Fill in the blanks
 
-```md
-(e) The two major components of an object are ________ and _____.
+## Characteristics of OOP
 
-(f) The ability of a function to act in different ways on different data
-types is called________________________.
+Here are the main features of object-oriented programming with very short, simple explanations.
 
-(g) The process of building new classes from existing ones is called ________________.
+### Objects
 
-(h) If a class A inherits its properties from class B, then A and B are known as___________class and_____________class, respectively.
+An object is a real-world entity with properties (data) and behaviors (methods). Examples: a Car object has color, speed, and methods like start() and stop().
 
-(i) Pascal and C are________________languages, whereas, Java is_______________language.
+### Classes
 
-(j) The phenomenon of nesting one object within another is known as_________________.
+A class is a blueprint for creating objects. It defines what properties and behaviors the objects (instances) will have.
 
-(k) _____________are nothing but user-defined types.
+### Inheritance
+
+Inheritance lets a class use properties and methods from another class. It models an "is-a" relationship.
+
+Example (plain text):
+```java
+class Animal { void eat() { ... } }
+class Dog extends Animal { void bark() { ... } }
+// Dog inherits eat() from Animal
 ```
 
-## [C] Pick up the correct alternative for each of the following questions
+Benefits: code reuse and easier extension.
 
-### (a) Calling multiple functions from main( ) is a feature of
+### Polymorphism
 
-``` text
-(1)  Structured programming
-(2)  Object-oriented programming
-(3)  Functional programming
-(4)  Dynamic programming
+Polymorphism means "many forms" — the same method name can do different things depending on the object that calls it. It lets you write code that works with the parent type but runs the child version of a method.
+
+Example (plain text):
+```java
+Animal a = new Dog();
+a.eat(); // runs Dog's eat if overridden
 ```
 
-### (b) Dividing a given job into multiple smaller jobs is a feature used by
+### Containership (Composition)
 
-```text
-(1)  Structured programming
-(2)  Object-oriented programming
-(3)  Functional programming
-(4)  Event-driven programming 
+Containership (also called composition) means a class can contain objects of other classes as fields. It models a "has-a" relationship.
+
+Example (plain text):
+```java
+class Car { Engine engine; }
+// Car has an Engine
 ```
 
-### (c) Which relationship should be established between a Vehicle class and a Car class?
+### Reusability
 
-```text
-(1)  Encapsulation
-(2)  Polymorphism
-(3)  Containership 
-(4)  Inheritance 
-```
+OOP helps reuse code. Classes and objects can be used again in new programs. Inheritance, composition, and well-designed classes all help with reuse.
 
-### (d) Which relationship should exists between Car, maruti and bmw?
 
-```text
-(1)  All should be classes
-(2)  All should be objects
-(3)  Car should be a class and maruti and bmw should be objects
-(4)  Car should be an object and maruti and bmw should be classes 
-```
+## Summary
 
-### (e) From OOP perspective, Customers and SalesPersons in a Sales Tracking System should be represented as
-
-```text
-(1) classes 
-(2) objects 
-(3)  interfaces
-(4)  methods
-```
-
-### (f) From OOP perspective, Employees in a Payroll Processing Systems should be represented as
-
-```text
-(1) classes 
-(2) objects 
-(3)  interfaces
-(4)  methods
-```
-
-### (g) Classes in an OOP system are
-
-```text
-(1) Primitives
-(2) User-defined types 
-(3)  interfaces
-(4)  methods 
-```
-
-### (h) An object contains
-
-```text
-(1) only data
-(2) only member functions 
-(3)  data and member functions
-(4)  only abstract functions
-```
+- OOP models programs as collections of objects built from classes.
+- Main benefits: better organization, easier maintenance, and reusability.
+- Key ideas: Objects, Classes, Inheritance, Polymorphism, Composition, and Reusability.

@@ -1,17 +1,16 @@
-import java.util.*;
-@SuppressWarnings({ "resource", "unused" })
+// Write a program to add first seven terms of the series 1/1! + 2/2! + 3/3! + ... using a for loop.
+package chapter5;
+
 public class ch5Ci {
     public static void main(String[] args) {
-        double fact,sum = 0.0;
+        double fact, sum = 0.0;
 
-        for(int i = 1;i<=7;i++)
-        {
+        for (int i = 1; i <= 7; i++) {
             fact = 1;
-            for(int j = 1;j<=i;j++)
-            {
+            for (int j = 1; j <= i; j++) {
                 fact = fact * j;
             }
-            sum = sum + i/fact;
+            sum = sum + i / fact;
             // System.out.println("sum = " + sum);
         }
         // System.out.println("Sum of series " + sum);

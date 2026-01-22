@@ -1,7 +1,9 @@
+// Write a program to print all prime numbers from 1 to 300. (Hint: Use nested loops, break and continue).
+package chapter5;
+
 import java.util.*;
 
 public class ch5Cd {
-    @SuppressWarnings({ "resource", "unused" })
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean isPrime;
